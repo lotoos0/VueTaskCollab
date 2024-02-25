@@ -12,6 +12,22 @@
     }
   ],
   "compilerOptions": {
-    "module": "NodeNext"
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "target": "es5",
+    "module": "es6",
+    "lib": ["dom", "es2015"],
+    "declaration": true,
+    "declarationDir": "./dist",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "resolveJsonModule": false,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
