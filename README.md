@@ -1,68 +1,42 @@
-# VueTaskCollab
+# Task Management App
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
 
-## Recommended IDE Setup
+Task management application that allows users to add, view, edit, and delete tasks and their comments.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Features
 
-## Type Support for `.vue` Imports in TS
+- Adding new tasks with specified details (title, description, deadline, priority, assigned to)
+- Browsing the list of tasks
+- Clicking on a task to view its details and comments
+- Adding comments to tasks
+- Editing existing tasks
+- Deleting tasks and comments
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Technologies
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- Vue.js 3.4.21
+- TypeScript
+- Vue Components (TaskForm, TaskList, CommentForm, CommentList, AdminPanel)
+- CSS Styling (customizable)
+- Potentially other libraries or tools you use
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Installation
 
-## Customize configuration
+1. Clone the repository: `git clone <repository_address>`
+2. Navigate to the project directory: `cd task-management-app`
+3. Install dependencies: `npm install`
+4. Run the application: `npm run serve`
+5. Open your browser and go to `http://localhost:8080/`
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Contributions
 
-## Project Setup
+If you want to contribute to the development of the application, fork the repository, make changes, and then create a pull request.
 
-```sh
-npm install
-```
+## Author
 
-### Compile and Hot-Reload for Development
+Created by [Your Name/Nickname] - [Email address or link to GitHub profile]
 
-```sh
-npm run dev
-```
+## License
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+This project is available under the License. See the LICENSE file for more information.
