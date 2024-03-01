@@ -20,6 +20,7 @@
     "lib": ["dom", "es2015"],
     "declaration": true,
     "declarationDir": "./dist",
+    "verbatimModuleSyntax": false,
     "noImplicitAny": false,
     "strictNullChecks": false,
     "resolveJsonModule": false,
