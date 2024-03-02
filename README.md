@@ -2,7 +2,7 @@
 
 ## Description
 
-Task management application that allows users to add, view, edit, and delete tasks and their comments.
+The Task Management App is a comprehensive solution designed to streamline and simplify your task management process. Whether you're an individual user or part of a team, this application provides a user-friendly interface to help you organize, track, and collaborate on tasks effortlessly.
 
 ## Features
 
@@ -15,28 +15,14 @@ Task management application that allows users to add, view, edit, and delete tas
 
 ## Technologies
 
-- Vue.js 3.4.21
+- Vue.js 
 - TypeScript
-- Vue Components (TaskForm, TaskList, CommentForm, CommentList, AdminPanel)
-- CSS Styling (customizable)
-- Potentially other libraries or tools you use
-
-## Installation
-
-1. Clone the repository: `git clone <repository_address>`
-2. Navigate to the project directory: `cd task-management-app`
-3. Install dependencies: `npm install`
-4. Run the application: `npm run serve`
-5. Open your browser and go to `http://localhost:8080/`
-
-## Contributions
-
-If you want to contribute to the development of the application, fork the repository, make changes, and then create a pull request.
+- Python
 
 ## Author
 
-Created by [Your Name/Nickname] - [Email address or link to GitHub profile]
+Created by Tomasz Pytlarz
 
 ## License
 
-This project is available under the License. See the LICENSE file for more information.
+This project is available under the GPL-3.0 license. See the LICENSE file for more information.
